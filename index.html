@@ -2,38 +2,131 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Malla Ingeniería Comercial UAI</title>
+  <title>Malla Interactiva - Ingeniería Comercial</title>
   <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-  <h1>Malla Curricular – Ingeniería Comercial 🧠</h1>
-  <h2>Universidad Adolfo Ibáñez</h2>
-  <p>Licenciatura en Administración de Empresas</p>
+  <h1>💖 Malla Interactiva – Ingeniería Comercial UAI 💖</h1>
+  <p>Toca un ramo para marcarlo como aprobado ✅</p>
 
   <div class="contenedor">
-    <div class="semestre">
-      <h3>1° Semestre</h3>
-      <ul>
-        <li>Civilización Contemporánea</li>
-        <li>Matemáticas Avanzadas I</li>
-        <li>Razonamiento Cuantitativo con Datos I</li>
-        <li>Introducción a la Microeconomía</li>
-        <li>Management</li>
-        <li>Taller de Lanzamiento I</li>
-        <li>Deporte I</li>
-      </ul>
-    </div>
-    <div class="semestre">
-      <h3>2° Semestre</h3>
-      <ul>
-        <li>Escritura Argumentativa</li>
-        <li>Matemáticas Avanzadas II</li>
-        <li>Razonamiento Cuantitativo con Datos II</li>
-        <li>Introducción a la Macroeconomía</li>
-        <li>Taller de Emprendimiento Tecnológico</li>
-        <li>Deporte II</li>
-      </ul>
-    </div>
+
+    <!-- Semestres del 1 al 10 -->
+<div class="semestre">
+<h3>1° Semestre</h3>
+<ul>
+<li id="s1-0" onclick="toggleTachado('s1-0')">Civilización Contemporánea</li>
+<li id="s1-1" onclick="toggleTachado('s1-1')">Matemáticas Avanzadas I</li>
+<li id="s1-2" onclick="toggleTachado('s1-2')">Razonamiento Cuantitativo con Datos I</li>
+<li id="s1-3" onclick="toggleTachado('s1-3')">Introducción a la Microeconomía</li>
+<li id="s1-4" onclick="toggleTachado('s1-4')">Management</li>
+<li id="s1-5" onclick="toggleTachado('s1-5')">Taller de Lanzamiento I</li>
+<li id="s1-6" onclick="toggleTachado('s1-6')">Deporte I</li>
+</ul>
+</div>
+<div class="semestre">
+<h3>2° Semestre</h3>
+<ul>
+<li id="s2-0" onclick="toggleTachado('s2-0')">Escritura Argumentativa</li>
+<li id="s2-1" onclick="toggleTachado('s2-1')">Matemáticas Avanzadas II</li>
+<li id="s2-2" onclick="toggleTachado('s2-2')">Razonamiento Cuantitativo con Datos II</li>
+<li id="s2-3" onclick="toggleTachado('s2-3')">Introducción a la Macroeconomía</li>
+<li id="s2-4" onclick="toggleTachado('s2-4')">Taller de Emprendimiento Tecnológico</li>
+<li id="s2-5" onclick="toggleTachado('s2-5')">Deporte II</li>
+</ul>
+</div>
+<div class="semestre">
+<h3>3° Semestre</h3>
+<ul>
+<li id="s3-0" onclick="toggleTachado('s3-0')">Literatura y Humanidades</li>
+<li id="s3-1" onclick="toggleTachado('s3-1')">Estadísticas & Data Science</li>
+<li id="s3-2" onclick="toggleTachado('s3-2')">Microeconomía</li>
+<li id="s3-3" onclick="toggleTachado('s3-3')">Taller de Introducción a los Negocios</li>
+<li id="s3-4" onclick="toggleTachado('s3-4')">Personas y Organizaciones</li>
+<li id="s3-5" onclick="toggleTachado('s3-5')">Deporte III</li>
+</ul>
+</div>
+<div class="semestre">
+<h3>4° Semestre</h3>
+<ul>
+<li id="s4-0" onclick="toggleTachado('s4-0')">Disciplinar Historia</li>
+<li id="s4-1" onclick="toggleTachado('s4-1')">Psicología Social</li>
+<li id="s4-2" onclick="toggleTachado('s4-2')">Organización Industrial</li>
+<li id="s4-3" onclick="toggleTachado('s4-3')">Contabilidad</li>
+<li id="s4-4" onclick="toggleTachado('s4-4')">Marketing</li>
+<li id="s4-5" onclick="toggleTachado('s4-5')">Deporte IV</li>
+</ul>
+</div>
+<div class="semestre">
+<h3>5° Semestre</h3>
+<ul>
+<li id="s5-0" onclick="toggleTachado('s5-0')">Ética</li>
+<li id="s5-1" onclick="toggleTachado('s5-1')">Econometría</li>
+<li id="s5-2" onclick="toggleTachado('s5-2')">Derecho e Institucionalidad</li>
+<li id="s5-3" onclick="toggleTachado('s5-3')">Managerial Economics</li>
+<li id="s5-4" onclick="toggleTachado('s5-4')">Finanzas</li>
+<li id="s5-5" onclick="toggleTachado('s5-5')">Liderazgo</li>
+<li id="s5-6" onclick="toggleTachado('s5-6')">Deporte V</li>
+</ul>
+</div>
+<div class="semestre">
+<h3>6° Semestre</h3>
+<ul>
+<li id="s6-0" onclick="toggleTachado('s6-0')">Ciencias</li>
+<li id="s6-1" onclick="toggleTachado('s6-1')">Gestión de Operaciones</li>
+<li id="s6-2" onclick="toggleTachado('s6-2')">Sociedad, Cultura y Política</li>
+<li id="s6-3" onclick="toggleTachado('s6-3')">Análisis Macroeconómico Global</li>
+<li id="s6-4" onclick="toggleTachado('s6-4')">Estrategia</li>
+<li id="s6-5" onclick="toggleTachado('s6-5')">Deporte VI</li>
+</ul>
+</div>
+<div class="semestre">
+<h3>7° Semestre</h3>
+<ul>
+<li id="s7-0" onclick="toggleTachado('s7-0')">Disciplinar Literatura y Arte</li>
+<li id="s7-1" onclick="toggleTachado('s7-1')">Fundamentos de Especialización</li>
+</ul>
+</div>
+<div class="semestre">
+<h3>8° Semestre</h3>
+<ul>
+<li id="s8-0" onclick="toggleTachado('s8-0')">Disciplinar Artes Liberales I</li>
+<li id="s8-1" onclick="toggleTachado('s8-1')">Especialización Disciplinar</li>
+</ul>
+</div>
+<div class="semestre">
+<h3>9° Semestre</h3>
+<ul>
+<li id="s9-0" onclick="toggleTachado('s9-0')">Disciplinar Artes Liberales II</li>
+<li id="s9-1" onclick="toggleTachado('s9-1')">Electivos</li>
+</ul>
+</div>
+<div class="semestre">
+<h3>10° Semestre</h3>
+<ul>
+<li id="s10-0" onclick="toggleTachado('s10-0')">Disciplinar Artes Liberales III</li>
+<li id="s10-1" onclick="toggleTachado('s10-1')">Actividad Práctica de Graduación</li>
+</ul>
+</div>
+
   </div>
+
+<script>
+  function toggleTachado(id) {
+    const item = document.getElementById(id);
+    item.classList.toggle("aprobado");
+    localStorage.setItem(id, item.classList.contains("aprobado"));
+  }
+
+  // Cargar estado desde localStorage
+  window.onload = function () {
+    document.querySelectorAll("li").forEach(item => {
+      const estado = localStorage.getItem(item.id);
+      if (estado === "true") {
+        item.classList.add("aprobado");
+      }
+    });
+  };
+</script>
 </body>
 </html>

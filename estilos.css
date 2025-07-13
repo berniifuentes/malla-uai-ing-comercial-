@@ -1,7 +1,8 @@
+
 body {
   font-family: 'Segoe UI', sans-serif;
-  background-color: #f7f9fc;
-  color: #2c3e50;
+  background-color: #ffeaf4;
+  color: #880e4f;
   text-align: center;
   margin: 0;
   padding: 0;
@@ -9,17 +10,12 @@ body {
 
 h1 {
   margin-top: 20px;
-  color: #008080;
-}
-
-h2 {
-  color: #444;
-  margin-bottom: 5px;
+  color: #d81b60;
 }
 
 p {
-  margin-bottom: 30px;
-  color: #666;
+  color: #6a1b9a;
+  font-weight: bold;
 }
 
 .contenedor {
@@ -31,7 +27,7 @@ p {
 }
 
 .semestre {
-  background: #e0f7fa;
+  background: #fce4ec;
   border-radius: 12px;
   padding: 20px;
   width: 260px;
@@ -39,7 +35,7 @@ p {
 }
 
 .semestre h3 {
-  color: #006064;
+  color: #ad1457;
   margin-bottom: 10px;
 }
 
@@ -54,4 +50,16 @@ p {
   padding: 10px;
   border-radius: 8px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.semestre li:hover {
+  background-color: #f8bbd0;
+}
+
+.aprobado {
+  text-decoration: line-through;
+  background-color: #fce4ec;
+  color: #999;
 }
